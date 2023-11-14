@@ -1,0 +1,132 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Lato", sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #fff;
+  height: 50px;
+  border-bottom: 2px solid #333;
+}
+nav .nav-con {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+nav .nav-con .logo a {
+  text-decoration: none;
+}
+nav .nav-con .menu {
+  display: flex;
+}
+nav .nav-con .menu li {
+  margin: 1rem;
+}
+nav .nav-con .menu li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.banner {
+  height: 450px;
+  background: url("https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+}
+.banner .banner-con {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+.banner .banner-con .banner-text h1 {
+  font-size: 4.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.services {
+  height: 400px;
+}
+.services .service-con {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 400px;
+  grid-gap: 1rem;
+}
+.services .service-con .service-items {
+  text-align: center;
+  align-self: center;
+  border: 2px solid #3a8cff;
+  padding: 1.5rem;
+}
+.services .service-con .service-items h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #3a8cff;
+}
+
+footer {
+  padding: 1rem;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */

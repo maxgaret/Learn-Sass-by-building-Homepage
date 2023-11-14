@@ -1,0 +1,29 @@
+nav {
+    background-color: $white;
+    height: 50px;
+    border-bottom: 2px solid $black;
+
+    .nav-con {
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        align-items: center;
+
+        .logo {
+            a {
+                text-decoration: none;
+            }
+        }
+
+        .menu {
+            display: flex;
+            li {
+                margin: 1rem;
+                a {
+                    text-decoration: none;
+                    color: $black;
+                }
+            }
+        }
+    }
+}
